@@ -3,6 +3,10 @@ body {
   background: #e5e5e5;
 }
 
+p {
+  margin: 0;
+}
+
 /* main styles */
 
 .main {
@@ -30,7 +34,7 @@ body {
 .about_position {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 17px;
   color: #000000;
   margin-bottom: 20px;
@@ -39,7 +43,7 @@ body {
 .about_name {
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 17px;
   line-height: 55px;
   color: #000000;
   margin-bottom: 25px;
@@ -48,7 +52,7 @@ body {
 .about_description {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 24px;
   color: #595959;
   width: 400px;
@@ -63,7 +67,7 @@ body {
 .title {
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 17px;
   line-height: 27px;
   color: #000000;
   margin-bottom: 10px;
@@ -78,16 +82,20 @@ body {
 .project_item {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 24px;
   color: #000000;
+}
+
+.project_item:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .project,
 .project_link {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 24px;
   color: #595959;
 }
@@ -99,15 +107,12 @@ body {
 .project_bracket {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 24px;
   color: #000000;
 }
 
 /* work styles */
-
-.work {
-}
 
 .workExp__list {
   list-style-type: none;
@@ -120,7 +125,7 @@ body {
 .position {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 20px;
   color: #000000;
   margin-bottom: 10px;
@@ -129,7 +134,7 @@ body {
 .organization {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 20px;
   color: #fb6d3a;
 }
@@ -137,7 +142,7 @@ body {
 .period {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 17px;
   line-height: 15px;
   color: #a8a8a8;
   margin-bottom: 10px;
@@ -146,7 +151,7 @@ body {
 .line {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 17px;
   line-height: 15px;
   color: #000000;
 }
@@ -165,7 +170,7 @@ body {
 .work_list_item {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 24px;
   color: #595959;
 }
@@ -173,7 +178,7 @@ body {
 .work3_list_item {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 24px;
   color: #595959;
 }
@@ -191,7 +196,7 @@ body {
 .education_title {
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 17px;
   line-height: 27px;
   color: #000000;
   margin-bottom: 12px;
@@ -200,7 +205,7 @@ body {
 .education_place {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 20px;
   color: #fb6d3a;
   margin-bottom: 11px;
@@ -209,7 +214,7 @@ body {
 .education_spec {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 17px;
   color: #000000;
   margin-bottom: 12px;
@@ -218,7 +223,7 @@ body {
 .education_period {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 17px;
   line-height: 15px;
   color: #a8a8a8;
 }
@@ -226,7 +231,7 @@ body {
 .edu_line {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 17px;
   line-height: 15px;
   color: #000000;
 }
@@ -261,15 +266,15 @@ body {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 17px;
   line-height: 27px;
   margin-bottom: 10px;
 }
 
 .contact_type {
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 17px;
   line-height: 24px;
   color: #ffffff;
   margin-right: 10px;
@@ -278,7 +283,7 @@ body {
 .contact_link {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 24px;
   color: #565e6a;
 }
@@ -296,7 +301,7 @@ body {
 .tech_skills_text {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 24px;
   color: #ffffff;
 }
@@ -308,7 +313,7 @@ body {
 .soft_skills_text {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 24px;
   color: #ffffff;
 }
