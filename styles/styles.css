@@ -5,7 +5,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   background: #e5e5e5;
-  
 }
 
 p {
@@ -19,7 +18,7 @@ p {
   flex-direction: row-reverse;
   width: 1200px;
   margin: 0 auto;
-  padding: 40px;
+  /* padding: 40px; */
 }
 
 /* main content */
@@ -27,7 +26,7 @@ p {
 .main_content {
   background: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 105px 90px;
+  padding: 50px;
 }
 
 /* about styles */
@@ -79,7 +78,8 @@ p {
 }
 
 .projects_list {
-  padding: 3px;
+  list-style-type: none;
+  padding: 0;
   padding-right: 0;
   margin-left: 15px;
 }
