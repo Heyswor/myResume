@@ -1,6 +1,11 @@
+/* * {
+  border: 1px solid red
+} */
+
 body {
   font-family: "Montserrat", sans-serif;
   background: #e5e5e5;
+  
 }
 
 p {
@@ -74,7 +79,7 @@ p {
 }
 
 .projects_list {
-  padding: 0px;
+  padding: 3px;
   padding-right: 0;
   margin-left: 15px;
 }
@@ -116,10 +121,6 @@ p {
 
 .workExp__list {
   list-style-type: none;
-}
-
-.workExp__item:not(:last-child) {
-  border-bottom: 1px solid black;
 }
 
 .position {
@@ -187,10 +188,6 @@ p {
 
 .education__list {
   list-style-type: none;
-}
-
-.education__item:not(:last-child) {
-  border-bottom: 1px solid black;
 }
 
 .education_title {
